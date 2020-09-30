@@ -1,0 +1,36 @@
+.tareaC84 {
+    background-color: bisque;
+    opacity: 60%;
+    height: 500px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #9b5b07;
+    .tareaC84--header {
+        display: flex;
+        border-bottom: 1px solid #fdbb2d;
+        color: #22c1c3;
+        
+        .tareaC84--header--title {
+            text-shadow: 2px 2px #9b5b07;
+        }
+    }
+    .tareaC84--content {
+        padding: 20px;
+        margin: 0;
+        height: 600px;
+    
+        img {
+            height: 360px;
+            width: 500px;
+            z-index: 100;
+        }
+
+    }
+    p {
+        height: 25px;
+        padding: 0;
+        margin: 0;
+    }
+    
+}

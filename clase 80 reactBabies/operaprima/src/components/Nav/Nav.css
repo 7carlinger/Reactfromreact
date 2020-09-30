@@ -1,0 +1,42 @@
+.App-Nav {
+    margin:0;
+    float: left;
+    background-color:  #282c34;
+    height: calc(100vh - 150px);
+}
+
+ul {
+    width: 240px;
+    padding: 0px;
+}
+li{
+    list-style-type:none;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+
+li a {
+    text-decoration:none;
+    display: block;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background-color: #282c34;
+    float: left;
+    text-align: left;
+}
+
+li a:hover {
+    color:#000;
+    background-color:#fff;
+            
+}
+
+        
+nav li:hover ul {
+    display:block;
+}

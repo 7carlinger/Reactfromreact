@@ -1,0 +1,12 @@
+.App-Footer {
+    background-color: #282c34;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: 0;
+}
