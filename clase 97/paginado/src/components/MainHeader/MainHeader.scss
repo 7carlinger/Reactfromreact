@@ -1,0 +1,31 @@
+#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 0 15px #999;
+    background: rgb(96, 97, 97);
+    color: white;
+    height: 75px;
+    h1{
+        margin: 0;
+    }
+    nav {
+        width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            height: 30px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            color: white;
+
+            
+            
+            &:hover {
+                color: #61dafb;
+            }
+        }
+    }
+}

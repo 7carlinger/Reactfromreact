@@ -9,16 +9,16 @@ const App = () => {
   /*const [id, setId] = useState ([]);*/
 
   const cargarCat = () => {
-
+    axios.get("https://api.thecatapi.com/v1/images/search ")
+          .then(res => {
+            setCats(res.data);
+          })
+          .catch(err => alert(`Error! ${err}`));
   }
 
   useEffect (() => {
-    axios.get("https://api.thecatapi.com/v1/images/search ")
-      .then(res => {
-        setCats(res.data);
-      })
-      .catch(err => alert(`Error! ${err}`));
-  }, []);
+    cargarCat();
+    }, []);
 
 
   return (

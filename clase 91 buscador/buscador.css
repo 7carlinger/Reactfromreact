@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(63, 63, 63);
+    margin: 0
+}
+.main-content {
+    display: block;
+}
+
+#imputador {
+    margin: auto;
+    width: 300px;
+}

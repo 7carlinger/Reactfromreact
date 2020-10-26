@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.page-container {
+  /*pone estilos para todas las pages*/
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 0 5px rgb(250, 249, 249);
+  background-color: #22252b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  .carla-link {
+    color: #61dafb;
+    padding-top: 100px;
+  }
+  h2{
+      height: 60px;
+      color: white;
+      padding: 20px 20px 20px 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      margin: 0;
+  }
+  p{
+      padding: 0 25px;
+      &:last-child{
+          padding-bottom: 25px;
+      }
+  }
+}
+p > a {
+  margin-left: 5px;
+}
+
